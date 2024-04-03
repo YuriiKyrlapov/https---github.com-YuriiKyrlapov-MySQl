@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Info and Tasks</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>User Info and Tasks</h1>
+    <form id="userForm">
+      <label for="username">Enter your name:</label>
+      <input type="text" id="username" name="username">
+      <button type="submit">Save</button>
+    </form>
+    <div id="userInfo"></div>
+    
+    <div>
+      <h2>Visits Counter</h2>
+      <p id="visitCounter"></p>
+    </div>
+    
+    <div>
+      <h2>Task List</h2>
+      <input type="text" id="newTask" placeholder="Enter a new task">
+      <button id="addTaskBtn">Add Task</button>
+      <ul id="taskList"></ul>
+    </div>
+  </div>
+  <script src="skrypt.js"></script>
+</body>
+</html>

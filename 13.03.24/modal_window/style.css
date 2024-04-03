@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.item {
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 10px;
+border: 1px solid black;
+max-width: 361px;
+}
+.item img {
+    max-width: 300px;
+}

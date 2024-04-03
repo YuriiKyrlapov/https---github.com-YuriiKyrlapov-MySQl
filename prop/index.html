@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/prop/style.css">
+    <title>Black Prop Forex</title>
+</head>
+<nav>
+    <div>
+        <ul>ABOUT</ul>
+        <ul></ul>
+        <ul></ul>
+        <ul></ul>
+        <ul></ul>
+       
+    </div>
+</nav>
+<body>
+    <div class="container">
+        <h1>Выберите ваш план</h1>
+        <div class="plan" onclick="selectPlan(100000)">План 1 (MT4) - $100,000</div>
+        <div class="plan" onclick="selectPlan(500000)">План 2 (MT4) - $500,000</div>
+        <div class="plan" onclick="selectPlan(1000000)">План 3 (MT4) - $1,000,000</div>
+        <div class="plan" onclick="selectPlan(5000000)">План 4 (MT5) - $5,000,000</div>
+        <div class="plan" onclick="selectPlan(20000000)">План 5 (MT5) - $20,000,000</div>
+        
+        <div class="payment-module">
+            <label for="promo">Промокод:</label>
+            <input type="text" id="promo" placeholder="Введите промокод">
+            <button onclick="applyDiscount()">Применить промокод</button>
+        </div>
+        
+        <div id="selected-plan"></div>
+    </div>
+    <script src="/prop/java.js"></script>
+</body>
+</html>
